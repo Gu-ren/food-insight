@@ -1,0 +1,156 @@
+.card {
+  width: 100%;
+  max-width: 290px;
+  height: 70px;
+  background-color: rgba(14, 13, 13, 0.366);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  backdrop-filter: blur(10px);
+  transition: 0.5s ease-in-out;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  position: absolute;
+  right: 20rem;
+  top: 10rem;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-image: url("./images/2.png");
+}
+
+.card:hover > .img {
+  transition: 0.5s ease-in-out;
+}
+
+.textBox {
+  width: calc(100% - 90px);
+  margin-left: 10px;
+  color: #28df99;
+  font-family: "Poppins" sans-serif;
+}
+
+.textContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .span {
+  font-size: 10px;
+}
+
+.card .h1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.card .p {
+  font-size: 12px;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.card1 {
+  width: 100%;
+  max-width: 290px;
+  height: 70px;
+  background-color: rgba(14, 13, 13, 0.366);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  backdrop-filter: blur(10px);
+  transition: 0.5s ease-in-out;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 100px #ffffff;
+  position: absolute;
+  right: 1rem;
+  top: 35rem;
+}
+
+.card1:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.img11 {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-image: url("./images/1.png");
+}
+
+.card1:hover > .img11 {
+  transition: 0.5s ease-in-out;
+}
+
+.textBox1 {
+  width: calc(100% - 90px);
+  margin-left: 10px;
+  color: #28df99;
+  font-family: "Poppins" sans-serif;
+}
+
+.textContent1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card1 .span1 {
+  font-size: 10px;
+}
+
+.card1 .h11 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.card1 .p1 {
+  font-size: 12px;
+  font-weight: lighter;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    width: 100%;
+    max-width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    right: 6rem;
+    top: 20rem;
+  }
+  .card .h1 {
+    font-size: 12px;
+  }
+  .card .p {
+    font-size: 10px;
+  }
+  .card1 {
+    width: 100%;
+    max-width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    right: 1rem;
+    top: 25rem;
+  }
+  .card1 .h11 {
+    font-size: 12px;
+  }
+  .card1 .p1 {
+    font-size: 10px;
+  }
+}

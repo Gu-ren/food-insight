@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Poppins:wght@400;500;600;700&display=swap");
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 3rem;
+}
+.container h1 {
+  font-size: 5rem;
+  padding-bottom: 3rem;
+  font-family: "Playfair Display ";
+}
+.textcontainer {
+  margin-right: 40rem;
+}
+.container p {
+  color: gray;
+  font-size: 1.2rem;
+}
+.containerButton {
+  padding-top: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  width: 10.5em;
+  height: 3em;
+  margin: 0.5em;
+  background: #28df99;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 15px;
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+.btn2 {
+  width: 10.5em;
+  height: 3em;
+  margin: 0.5em;
+  background: #fff;
+  color: #28df99;
+  border: 2px solid #28df99;
+  border-radius: 0.625em;
+  font-size: 15px;
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.btn2:hover {
+  transform: scale(1.2);
+}
+.container img {
+  height: 500px;
+  width: 700px;
+  position: absolute;
+  left: 60rem;
+  top: 7rem;
+}
+.container .spoon img {
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  left: 45rem;
+  top: 26rem;
+}
+.pcontain {
+  margin-right: 20rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container img {
+    height: 200px;
+    width: 400px;
+
+    left: 0rem;
+    top: 7rem;
+  }
+  .container .spoon img {
+    height: 100px;
+    width: 300px;
+
+    left: 10rem;
+    top: 14em;
+  }
+  .container h1 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+  .container {
+    padding: 25rem 3rem;
+    max-height: 100vh;
+  }
+  .textcontainer {
+    margin-right: 0rem;
+  }
+  .container p {
+    font-size: 0.8rem;
+  }
+  .containerButton {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    width: 100%;
+    height: 3em;
+    margin: 0.5em;
+    font-size: 15px;
+  }
+  .btn2 {
+    width: 100%;
+    height: 3em;
+    margin: 0.5em;
+    font-size: 15px;
+  }
+  .pcontain {
+    margin-right: 0rem;
+  }
+}
