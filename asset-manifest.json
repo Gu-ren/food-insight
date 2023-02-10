@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/food-insight/static/css/main.2f9b096d.css",
+    "main.js": "/food-insight/static/js/main.65a53c55.js",
+    "static/media/spoon.svg": "/food-insight/static/media/spoon.229d60dffc0a3712f119737d04ccd55a.svg",
+    "static/media/img3.png": "/food-insight/static/media/img3.fed1dbfaa67fd6a2ee9f.png",
+    "index.html": "/food-insight/index.html",
+    "main.2f9b096d.css.map": "/food-insight/static/css/main.2f9b096d.css.map",
+    "main.65a53c55.js.map": "/food-insight/static/js/main.65a53c55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f9b096d.css",
+    "static/js/main.65a53c55.js"
+  ]
+}
